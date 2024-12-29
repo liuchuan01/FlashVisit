@@ -1,0 +1,35 @@
+{
+  "name": "flash-visit-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@vueuse/core": "^12.2.0",
+    "axios": "^1.6.2",
+    "core-js": "^3.8.3",
+    "echarts": "^5.6.0",
+    "element-plus": "^2.4.3",
+    "vue": "^3.2.13",
+    "vue-echarts": "^7.0.3",
+    "vue-router": "^4.0.13",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.25.9",
+    "@vue/babel-preset-app": "^5.0.8",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-standard": "^8.0.1",
+    "eslint": "^8.57.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-vue": "^9.32.0"
+  }
+}
